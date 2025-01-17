@@ -1,0 +1,13 @@
+{
+  "appTitle": "Demo App",
+  "loading_data": "Lade Daten...",
+  "error_while_loading_data": "Fehler beim Laden der Daten",
+  "greeting": "{gender, select, all{Alle} male{Herren} female{Damen} other{andere}}",
+  "@greeting": {
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  }
+}
