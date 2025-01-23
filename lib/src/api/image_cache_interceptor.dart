@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:http/http.dart';
-import 'package:http_cache/http_cache.dart';
-import 'package:http_intercept/http_intercept.dart';
+import 'package:http_client_cache/http_client_cache.dart';
+import 'package:http_client_interceptor/http_client_interceptor.dart';
 import 'package:inject_annotation/inject_annotation.dart';
 
 @inject

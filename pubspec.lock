@@ -342,18 +342,33 @@ packages:
     dependency: "direct main"
     description:
       name: http
-      sha256: b9c29a161230ee03d3ccf545097fccd9b87a5264228c5d348202e0f0c28f9010
+      sha256: fe7ab022b76f3034adc518fb6ea04a82387620e19977665ea18d30a1cf43442f
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.2"
-  http_cache:
+    version: "1.3.0"
+  http_client_cache:
     dependency: "direct main"
     description:
-      path: "packages/http_cache"
-      ref: main
-      resolved-ref: "892496e077006f6d52590103ddb06e4c53eb051f"
-      url: "https://github.com/ralph-bergmann/HttpTools.git"
-    source: git
+      name: http_client_cache
+      sha256: "75deaf57b9b367a70ed7ff6bd17d0251142ef2cd3a847846ed8b47b26d6d6f8f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  http_client_interceptor:
+    dependency: "direct main"
+    description:
+      name: http_client_interceptor
+      sha256: f3be8e90d90029e004ac7cd123fefcffc0def0a6817f339d621807b1c5986257
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
+  http_client_logger:
+    dependency: "direct main"
+    description:
+      name: http_client_logger
+      sha256: "561da413d666a5807931be2d25acb2af57ce6f098d00602dcfbd24514dd29757"
+      url: "https://pub.dev"
+    source: hosted
     version: "1.0.0"
   http_image_provider:
     dependency: "direct main"
@@ -362,23 +377,6 @@ packages:
       sha256: bb5ee95d82b488d0d6dae69c662f8d04731d2aa5b4d59805aa586c3b3a9ce0ee
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
-  http_intercept:
-    dependency: "direct main"
-    description:
-      name: http_intercept
-      sha256: "431a0cf26333934e16bd4fe0355e77778c7ec10c33ff15420fa79247a661af26"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  http_logger:
-    dependency: "direct main"
-    description:
-      path: "packages/http_logger"
-      ref: main
-      resolved-ref: "892496e077006f6d52590103ddb06e4c53eb051f"
-      url: "https://github.com/ralph-bergmann/HttpTools.git"
-    source: git
     version: "1.0.0"
   http_multi_server:
     dependency: transitive
@@ -965,10 +963,10 @@ packages:
     dependency: transitive
     description:
       name: web_socket_channel
-      sha256: "9f187088ed104edd8662ca07af4b124465893caf063ba29758f97af57e61da8f"
+      sha256: "0b8e2457400d8a859b7b2030786835a28a8e80836ef64402abef392ff4f1d0e5"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.1"
+    version: "3.0.2"
   webkit_inspection_protocol:
     dependency: transitive
     description:

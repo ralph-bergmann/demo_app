@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:http_cache/http_cache.dart';
+import 'package:http_client_cache/http_client_cache.dart';
 import 'package:inject_annotation/inject_annotation.dart';
 import 'package:path_provider/path_provider.dart';
 

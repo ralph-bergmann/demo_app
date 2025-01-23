@@ -19,18 +19,10 @@ dependencies:
   flutter_bloc: ^9.0.0
   go_router: ^14.6.3
   http: ^1.2.2
-  http_cache:
-    git:
-      url: https://github.com/ralph-bergmann/HttpTools.git
-      ref: main
-      path: packages/http_cache
+  http_client_cache: ^1.0.0
+  http_client_interceptor: ^1.0.1
+  http_client_logger: ^1.0.0
   http_image_provider: ^1.0.0
-  http_intercept: ^1.0.0
-  http_logger:
-    git:
-      url: https://github.com/ralph-bergmann/HttpTools.git
-      ref: main
-      path: packages/http_logger
   inject_annotation: ^1.0.0-alpha.4
   intl: any
   logging: ^1.3.0
